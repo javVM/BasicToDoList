@@ -1,0 +1,168 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #0878c2;
+}
+
+.App.h1,h2 {
+  color: #fff;
+}
+
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: #0878c2;
+}
+
+.listinput {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 20%;
+  background: transparent;
+  color: #000;
+}
+
+.listdescription {
+  padding: 14px 32px 14px 16px;
+  border-radius: 0px 0 0 0px;
+  border-left: 4px solid #0878c2;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 45%;
+  background: transparent;
+  color: #000;
+}
+
+.listform {
+  margin-bottom: 32px;
+}
+
+.listbutton {
+  padding: 16px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: #0878c2;
+
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.gobackbutton {
+  padding: 16px;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+  outline: none;
+  background-color: #0878c2;
+
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  margin-top: 20px;
+  color: #000;
+  background-color: #88c7f2;
+
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+
+  color: #000;
+  background-color: peachpuff;
+
+  padding: 20px;
+
+  border-radius: 0px;
+  width: 85%;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+.Container {
+  padding: 5%;
+  background-color: #fff;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.erase-icon {
+  margin-right: 5px;
+  color: #000;
+}
+
+.task-icon {
+  margin-right: 5px;
+  color: #000;
+}
+
+.taskinput {
+  padding: 14px 32px 14px 16px;
+  border-radius: 0px 0 0 0px;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 20%;
+  background: transparent;
+  color: #000;
+}
+
+.taskselect {
+  padding: 14px 32px 14px 16px;
+  border-radius: 0px 0 0 0px;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 10%;
+  background: transparent;
+  color: #000;
+}
+
+.taskdate {
+  padding: 14px 32px 14px 16px;
+  border-radius: 0px 0 0 0px;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 15%;
+  background: transparent;
+  color: #000;
+}
+
+.searchinput {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #0878c2;
+  outline: none;
+  width: 65%;
+  background: transparent;
+  color: #000;
+}
+
+.edit-icon {
+  color: #000;
+}
